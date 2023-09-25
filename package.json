@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command line application that can be used to manage a company's employee database using node.js, inquirer, and mysql.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ijordan4/employee-tracker"
+  },
+  "author": "Isaiah Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ijordan4/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/Ijordan4/employee-tracker",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.5.0",
+    "table": "^6.8.1"
+  }
+}
